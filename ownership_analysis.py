@@ -6,10 +6,10 @@ import pandas as pd
 
 
 def load_data():
-    multifamily_file_path = "data/Assessor_-_Single_and_Multi-Family_Improvement_Characteristics_20250509.csv"
-    apartment_file_path = "data/Assessor_-_Commercial_Valuation_Data_20250508.csv"
-    address_file_path = "data/Assessor_-_Parcel_Addresses_20250430.csv"
-    parcel_universe_file_path = "data/Assessor_-_Parcel_Universe__Current_Year_Only__20250430.csv"
+    multifamily_file_path = "data/Multi_Family_Improvement_Characteristics.csv"
+    apartment_file_path = "data/Apartment_Commercial_Valuation_Data.csv"
+    address_file_path = "data/Parcel_Addresses.csv"
+    parcel_universe_file_path = "data/Parcel_Universe_Current_Year_Only.csv"
 
     multifamily_data = pd.read_csv(multifamily_file_path)
     apartment_data = pd.read_csv(apartment_file_path)

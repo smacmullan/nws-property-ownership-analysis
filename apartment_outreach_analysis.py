@@ -3,8 +3,8 @@ import pandas as pd
 
 def load_data():
     """Load address and parcel universe data."""
-    address_file_path = "data/Assessor_-_Parcel_Addresses_20250430.csv"
-    parcel_universe_file_path = "data/Assessor_-_Parcel_Universe__Current_Year_Only__20250430.csv"
+    address_file_path = "data/Parcel_Addresses.csv"
+    parcel_universe_file_path = "data/Parcel_Universe_Current_Year_Only.csv"
 
     address_data = pd.read_csv(address_file_path)
     parcel_universe_data = pd.read_csv(parcel_universe_file_path)
